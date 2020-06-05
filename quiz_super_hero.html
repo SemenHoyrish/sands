@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_quiz_super_hero.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <title>Викторина про Супергероев</title>
+</head>
+<body>
+    <a href="/" id="back">назад</a>
+    <h1>Викторина про Супергероев</h1>
+    <main>
+        <div class="quastion">
+            <h2>1. Соедините цвета с названиями камней бесконечности.</h2>
+            <div class="answer">
+                <p>камень силы</p>
+                <select name="" id="answer_1">
+                    <option class="" value="">-выберите ответ-</option>
+                    <option class="indigo" value="indigo">ФИОЛЕТОВЫЙ</option>
+                    <option class="red" value="red">КРАСНЫЙ</option>
+                    <option class="blue" value="blue">СИНИЙ</option>
+                    <option class="yellow" value="yellow">ЖЁЛТЫЙ</option>
+                    <option class="green" value="green">ЗЕЛЁНЫЙ</option>
+                </select>
+            </div>
+            <div class="answer">
+                <p>камень времени</p>
+                <select name="" id="answer_5">
+                    <option class="" value="">-выберите ответ-</option>
+                    <option class="indigo" value="indigo">ФИОЛЕТОВЫЙ</option>
+                    <option class="red" value="red">КРАСНЫЙ</option>
+                    <option class="blue" value="blue">СИНИЙ</option>
+                    <option class="yellow" value="yellow">ЖЁЛТЫЙ</option>
+                    <option class="green" value="green">ЗЕЛЁНЫЙ</option>
+                </select>
+            </div>
+            <div class="answer">
+                <p>камень реальности</p>
+                <select name="" id="answer_2">
+                    <option class="" value="">-выберите ответ-</option>
+                    <option class="indigo" value="indigo">ФИОЛЕТОВЫЙ</option>
+                    <option class="red" value="red">КРАСНЫЙ</option>
+                    <option class="blue" value="blue">СИНИЙ</option>
+                    <option class="yellow" value="yellow">ЖЁЛТЫЙ</option>
+                    <option class="green" value="green">ЗЕЛЁНЫЙ</option>
+                </select>
+            </div>
+            <div class="answer">
+                <p>камень разума</p>
+                <select name="" id="answer_4">
+                    <option class="" value="">-выберите ответ-</option>
+                    <option class="indigo" value="indigo">ФИОЛЕТОВЫЙ</option>
+                    <option class="red" value="red">КРАСНЫЙ</option>
+                    <option class="blue" value="blue">СИНИЙ</option>
+                    <option class="yellow" value="yellow">ЖЁЛТЫЙ</option>
+                    <option class="green" value="green">ЗЕЛЁНЫЙ</option>
+                </select>
+            </div>
+            <div class="answer">
+                <p>камень космоса</p>
+                <select name="" id="answer_3">
+                    <option class="" value="">-выберите ответ-</option>
+                    <option class="indigo" value="indigo">ФИОЛЕТОВЫЙ</option>
+                    <option class="red" value="red">КРАСНЫЙ</option>
+                    <option class="blue" value="blue">СИНИЙ</option>
+                    <option class="yellow" value="yellow">ЖЁЛТЫЙ</option>
+                    <option class="green" value="green">ЗЕЛЁНЫЙ</option>
+                </select>
+            </div>
+        </div>
+        <div class="quastion">
+            <h2>2. Какого камня в первом задании нет</h2>
+            <input id="quastion2" type="text" placeholder="Если все камни присутствуют оставить пустым">
+        </div>
+        <div class="quastion">
+            <h2>3. Сколько вариантов будущего увидел Доктор Стрендж </h2>
+            <input class="quastion3_input" type="radio" name="quastion3" id="quastion3_1" value="a">
+            <label class="quastion3_label" for="quastion3_1">a.	15000000</label><br><br>
+
+            <input class="quastion3_input" type="radio" name="quastion3" id="quastion3_2" value="b">
+            <label class="quastion3_label" for="quastion3_2">b.	14120000</label><br><br>
+
+            <input class="quastion3_input" type="radio" name="quastion3" id="quastion3_3" value="c">
+            <label class="quastion3_label" for="quastion3_3">c.	14000625</label><br><br>
+
+            <input class="quastion3_input" type="radio" name="quastion3" id="quastion3_4" value="d">
+            <label class="quastion3_label" for="quastion3_4">d.	14000782</label><br><br>
+        </div>
+        <div class="quastion">
+            <h2>4. Кому Капитан Америка отдал свой щит</h2>
+            <input class="quastion4_input" type="radio" name="quastion4" id="quastion4_1" value="a">
+            <label class="quastion4_label" for="quastion4_1">a.	Сэм Уилсон (Сокол)</label><br><br>
+
+            <input class="quastion4_input" type="radio" name="quastion4" id="quastion4_2" value="b">
+            <label class="quastion4_label" for="quastion4_2">b.	Баки (Зимний солдат )</label><br><br>
+
+            <input class="quastion4_input" type="radio" name="quastion4" id="quastion4_3" value="c">
+            <label class="quastion4_label" for="quastion4_3">c.	Никому</label><br><br>
+        </div>
+        <div class="quastion">
+            <h2>5. В каком году вышел фильм человек муравей</h2>
+            <input class="quastion5_input" type="radio" name="quastion5" id="quastion5_1" value="a">
+            <label class="quastion5_label" for="quastion5_1">a.	2011</label><br><br>
+
+            <input class="quastion5_input" type="radio" name="quastion5" id="quastion5_2" value="b">
+            <label class="quastion5_label" for="quastion5_2">b.	2016</label><br><br>
+
+            <input class="quastion5_input" type="radio" name="quastion5" id="quastion5_3" value="c">
+            <label class="quastion5_label" for="quastion5_3">c.	2015</label><br><br>
+        </div>
+        <div id="doneDiv">
+            <input id="done" type="button" value="ПРОВЕРИТЬ" onclick="check()">
+        </div>
+        <div id="results">
+            <p id="rightAnsw"></p>
+            <p id="falseAnsw"></p>
+            <p id="allAnsw"></p>
+        </div>
+    </main>
+    <script src="quiz_super_hero.js"></script>
+    <!-- <script src="sweetalert2.all.min.js"></script> -->
+    <script>
+        function goodAlert() {
+            Swal.fire({
+                title: 'Вы прошли!',
+                text: 'Вы ответили правильно на все вопросы!!!',
+                icon: 'success',
+                confirmButtonText: 'Понятно'
+            })
+        }
+        function badAlert() {
+            Swal.fire({
+                title: 'Вы не прошли!',
+                text: 'У вас нет ни одного правильного ответа!',
+                icon: 'error',
+                confirmButtonText: 'Понятно'
+            })
+        }
+        function infoAlert(right) {
+            Swal.fire({
+                title: 'Вы не прошли!',
+                text: 'Вы ответили правильно на ' + right + ' вопрос(-а, -ов)',
+                icon: 'info',
+                confirmButtonText: 'Понятно'
+            })
+        }
+
+        let secretAnswer;
+
+        async function secretAlert() {
+            let { value: tmp } = await Swal.fire({
+                title: 'Секретный дополнительный вопрос!',
+                text: 'Какой последний косюм был у железного человека?',
+                icon: 'info',
+                input: 'text',
+                confirmButtonText: 'Понятно'
+            })
+            secretAnswer = tmp;
+            checkSecretAnswer();
+        }
+
+        function secretGoodAlert() {
+            Swal.fire({
+                title: 'ПОЗДРАВЛЯЕМ!!!',
+                text: 'Вы ответили на секретный вопрос верно!',
+                icon: 'success',
+                confirmButtonText: 'Ура!!!'
+            })
+        }
+        function secretBadAlert() {
+            Swal.fire({
+                title: 'Увы!',
+                text: 'К сожадению Вы дали неверный ответ.',
+                icon: 'error',
+                confirmButtonText: 'Понял'
+            })
+        }
+
+        function checkSecretAnswer() {
+            if (secretAnswer == 'Mark85' || secretAnswer == 'Mark 85' || secretAnswer == 'Mark-85' || secretAnswer == 'mark85' || secretAnswer == 'mark-85' || secretAnswer == 'mark 85' || secretAnswer == 'Марк85' || secretAnswer == 'Марк 85' || secretAnswer == 'Марк-85' || secretAnswer == 'марк85' || secretAnswer == 'марк-85' || secretAnswer == 'марк 85') {
+                secretGoodAlert();
+            } else {
+                secretBadAlert();
+            }
+        }
+    </script>
+</body>
+</html>

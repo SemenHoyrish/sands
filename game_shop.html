@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <link rel="stylesheet" href="style_game_shop.css">
+    <title>TEST</title>
+</head>
+<body onload="loadInventory()">
+    <div class="balance">
+        <div class="balanceInfo">
+            <p class="balanceInfo_text"></p>
+        </div>
+        <div class="balancePlus">
+            <input class="balancePlus_button" type="button" value="Пополнить" onclick="balancePlus()">
+        </div>
+        <div style="display: none;" class="lk"></div>
+    </div>
+
+    <div>
+        <input class="btn" value="ЧАЙ" type="button" onclick="tea()" name="" id="">
+        <input class="btn" value="СОК АПЕЛЬСИНОВЫЙ" type="button" onclick="juice('СОК АПЕЛЬСИНОВЫЙ')" name="" id="">
+        <input class="btn" value="СОК ЯБЛОЧНЫЙ" type="button" onclick="juice('СОК ЯБЛОЧНЫЙ')" name="" id="">
+        <input class="btn" value="СОК ВИШНЁВЫЙ" type="button" onclick="juice('СОК ВИШНЁВЫЙ')" name="" id="">
+        <input class="btn" value="СОК ПЕРСИКОВЫЙ" type="button" onclick="juice('СОК ПЕРСИКОВЫЙ')" name="" id="">
+        <input class="btn" value="СОК ТОМАТНЫЙ" type="button" onclick="juice('СОК ТОМАТНЫЙ')" name="" id="">
+    </div>
+
+    <div class="inventory"></div>
+
+    <div class="myAlertWrap">
+        <div class="myAlert">
+            <div class="myAlerImg"><img src="https://avatars.mds.yandex.net/get-pdb/2033173/736e3686-7728-42ca-b4f0-20d7fb39ad33/s1200" alt=""></div>
+            <div class="myAlerText">
+                <h1 class="myAlerText-title"></h1>
+                <h2 class="myAlerText-subtitle"></h2>
+            </div>
+            <div class="myAlertButton">
+                <input class="myAlertButton-button" type="button" onclick="myAlertOff()" value="">
+                <input class="myAlertButton-button" id="closeBtn" type="button" onclick="myAlertClose()" value="закрыть">
+            </div>
+        </div>
+    </div>
+
+    <div class="clearBtn">
+        <button onclick="clearLS()">CLEAR</button>
+    </div>
+    <script src="game_shop.js"></script>
+</body>
+</html>

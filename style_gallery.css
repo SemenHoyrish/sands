@@ -1,0 +1,32 @@
+body {
+    margin: 40px;
+}
+
+#back {
+    font-size: 30px;
+    float: left;
+    text-decoration: none;
+    color: rgb(4, 112, 4);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#back:hover {
+    color: red;
+}
+
+.card {
+    display: inline-table;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: rgb(236, 236, 236);
+}
+.card:active {
+    background-color: rgb(216, 216, 216);
+}

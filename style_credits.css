@@ -1,0 +1,41 @@
+* {
+    background-color: rgb(253, 250, 237);
+    box-sizing: border-box;
+}
+
+.card {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.photo {
+    /* margin-left: 40%; */
+    /* width: 20%; */
+    /* border: 3px solid blanchedalmond; */
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.name {
+    font-size: 50px;
+    margin: auto;
+    width: 200px;
+    border: 3px solid blanchedalmond;
+}
+
+.back_link {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#back {
+    /* margin-left: 48%; */
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 178, 61);
+}
+
+#back:hover {
+    color: red;
+}

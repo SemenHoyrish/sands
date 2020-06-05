@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url(/img/background_1.jpg) center top rgb(0, 14, 139); */
+    /* background-color: rgb(0, 14, 139); */
+    background-color: #114471;
+}
+
+.scrollLock {
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.bloq {
+
+}
+.bloq_text {
+    font-family: Pelagy;
+    font-weight: bold;
+    line-height: 120%;
+}
+.bloq_text-author {
+    font-family: Pelagy;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.title{
+    background-color: #114471;
+    padding: 10px 0;
+    border: 5px dotted #198496;
+
+}
+
+.title_text {
+    text-decoration: underline;
+    margin: 0;
+    font-family: Comic Sans MS;
+    font-size: 70px;
+    /* height: 60px; */
+    color: #D86036;
+    font-weight: bold;
+}
+
+.burgerMenu {
+    position: fixed;
+    /* top: 440px; */
+    top: -10px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+.burgerMenuBtn {
+    display: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.burgerMenuBtn_button {
+    color: #198496;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+}
+.burgerMenuBtn2 {
+    /* display: none; */
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+}
+.burgerMenuBtn_button2 {
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+aside {
+    position: absolute;
+    max-width: 240px;
+    background-color: rgba(245, 245, 245, 0.4);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.menu {
+    border: 2px solid white;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;  
+}
+
+a:hover {
+    color: silver;
+}
+
+.audio {
+    float: left;
+    clear: left;
+    margin-top: 20px;
+}
+
+#star_text {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    clear: left;
+    color: white;
+    margin-top: 550px;
+    margin-left: 60px;
+}
+
+.cust_menu_btn {
+    text-align: right;
+}
+
+.cust_menu_button {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    padding: 0;
+    border: none;
+}
+.cust_menu_button:focus {
+    outline: none;
+}
+.cust_menu_button:hover {
+    opacity: 0.8;
+}
+.cust_menu_button:active {
+    opacity: 0.5;
+}
+
+#cust_menu {
+    display: none;
+    text-align: right;
+    position: fixed;
+    right: 0;
+    margin-right: 20px;
+}
+
+#cust_menu p {
+    font-size: 1.5em;
+    color: wheat;
+}
+
+.bg_button {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    border: none;
+}
+
+
+/* временные записи */
+.NineMay {
+    display: none;
+    margin-top: 40px;
+    text-align: center;
+}
+.NineMay div {
+    margin-bottom: 10px;
+}
+
+.EndOfSchoolYear {
+    display: none;
+}
+
+.GalyasBirthday {
+    text-align: center;
+    /* display: none; */
+}
+.birthdayCardWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.birthdayCard {
+    display: inline-block;
+}
+.birthdayCard-Savely {
+    margin-right: 40px;
+}
+.linkForFullContent {
+    font-size: 20px;
+}
+.lowWidth {
+    display: none;
+}
+.videoIframe {
+    /* display: none; */
+}
+.videoVideo {
+    display: none;
+}
+
+.ChildrenDefenceDay {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* display: none; */
+}
+
+@media screen and (max-device-width: 1750px) {
+    .GalyasBirthday {
+        display: flex;
+        justify-content: center;
+    }
+    .birthdayCardWrap {
+        display: block;
+        text-align: center;
+    }
+    .birthdayCard {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .birthdayCard-Savely {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    .linkForFullContent {
+        display: none;
+    }
+    .lowWidth {
+        display: block;
+    }
+}
+
+/* @media screen and (max-device-width: 968px) {
+    .videoIframe {
+        display: block;
+    }
+    .videoVideo {
+        display: none;
+    }
+} */
+
+@media screen and (max-device-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .burgerMenu {
+        margin-top: 10px;
+        background-color: #114471;
+        /* height: 465px; */
+        /* height: 100%; */
+        padding: 30px 0 0 0;
+    }
+    .burgerMenuBtn {
+        display: block;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        margin: 0 0 30px 0;
+        border: none;
+        background: none;
+        font-size: 30px;
+    }
+
+    aside {
+        display: none;
+    }
+    .cust_menu_btn {
+        display: none;
+    }
+
+    /* aside {
+        position: absolute;
+        height: 280px;
+        max-width: 90%;
+    }
+
+    .menu {
+        font-size: 2em;
+    }
+
+    .NineMay {
+        margin-top: 300px;
+    }
+
+    .cust_menu_btn {
+        width: 40px;
+        position: absolute;
+        right: 10px;
+        top: 400px;
+    }
+    .cust_menu_button {
+        position: absolute;
+        margin-top: -150px;
+    } */
+}

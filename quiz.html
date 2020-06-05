@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Викторина</title>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style_quiz.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" type="text/html" href="index.html">
+
+        <script type="text/JavaScript">
+            function check(form) {
+                var count = 0;
+                var q1 = document.getElementById("an_1_2")
+                if(q1.checked){
+                    count++;
+                    document.getElementById("answer_span_1").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_1").className = "false_answer";
+                }
+                document.getElementById("answer_span_1").innerHTML = "Англичанам приходилось платить налог на трусость. Им облагали всех, кто не желал принимать участие в войнах во славу короля"
+                
+                var q2 = document.getElementById("an_2_3")
+                if(q2.checked){
+                    count++;
+                    document.getElementById("answer_span_2").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_2").className = "false_answer";
+                }
+                document.getElementById("answer_span_2").innerHTML = "Налог на солнце обязаны платить все туристы, которые приезжают на Майорку. Плата невысокая, всего 1 евро в день, Власти говорят, то собранные деньги тратятся на улучшение туристической инфраструктуры."
+                
+                var q3 = document.getElementById("an_3_2")
+                if(q3.checked){
+                    count++;
+                    document.getElementById("answer_span_3").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_3").className = "false_answer";
+                }
+                document.getElementById("answer_span_3").innerHTML = "Стрекоза совсем не издает звуков, поэтому петь она никак не могла. Во времена Крылова «стрекоза» являлось обобщенным названием для нескольких видов насекомых. Так что в басне под «попрыгуньей», скорее всего, подразумевается кузнечик."
+                
+                var q4 = document.getElementById("an_4_2")
+                if(q4.checked){
+                    count++;
+                    document.getElementById("answer_span_4").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_4").className = "false_answer";
+                }
+                document.getElementById("answer_span_4").innerHTML = "Индеец племени квакиутль, беря деньги в долг, может оставить в залог свое имя. Пока он не возвратит долг, к нему никто не обратится по имени."
+                
+                var q5 = document.getElementById("an_5_1").value
+                if(q5 == "10" || q5 == "10 рулонов"){
+                    count++;
+                    document.getElementById("answer_span_5").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_5").className = "false_answer";
+                }
+                document.getElementById("answer_span_5").innerHTML = "Это всего 10 рулонов (стандартный рулон — 54 метра)."
+                
+                var q6 = document.getElementById("an_6_2")
+                if(q6.checked){
+                    count++;
+                    document.getElementById("answer_span_6").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_6").className = "false_answer";
+                }
+                document.getElementById("answer_span_6").innerHTML = "Быки практически не различают цветов. В корриде они реагируют не на красный, а на раздражающее размахивание плащом."
+                
+                var q7 = document.getElementById("an_7_2")
+                if(q7.checked){
+                    count++;
+                    document.getElementById("answer_span_7").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_7").className = "false_answer";
+                }
+                document.getElementById("answer_span_7").innerHTML = "Страусы, когда чувствуют опасность, убегают. Миф о том, что они закапываются, возник, возможно, из-за того, что, обессилев от долгой погони, они просто роняют голову со своей длинной шеей."
+                
+                var q8 = document.getElementById("an_8_2")
+                if(q8.checked){
+                    count++;
+                    document.getElementById("answer_span_8").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_8").className = "false_answer";
+                }
+                document.getElementById("answer_span_8").innerHTML = "Молния способна ударить в одно место не два и даже не три раза. В некоторые здания она бьет до ста раз в год."
+                
+                var q9 = document.getElementById("an_9_2")
+                if(q9.checked){
+                    count++;
+                    document.getElementById("answer_span_9").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_9").className = "false_answer";
+                }
+                document.getElementById("answer_span_9").innerHTML = "Верблюды накапливают в горбах не воду, а жир."
+                
+                var q10 = document.getElementById("an_10_1")
+                if(q10.checked){
+                    count++;
+                    document.getElementById("answer_span_10").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_10").className = "false_answer";
+                }
+                document.getElementById("answer_span_10").innerHTML = "Звезд во Вселенной — около 10 секстиллионов, а песчинок на пляжах нашей планеты — примерно в два раза меньше."
+                
+                var q11 = document.getElementById("an_11_2")
+                if(q11.checked){
+                    count++;
+                    document.getElementById("answer_span_11").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_11").className = "false_answer";
+                }
+                document.getElementById("answer_span_11").innerHTML = "С низкой орбиты можно увидеть отнюдь не только Великую Китайскую стену. Египетские пирамиды, например, видно ничуть не хуже."
+                
+                var q12 = document.getElementById("an_12_1")
+                if(q12.checked){
+                    count++;
+                    document.getElementById("answer_span_12").className = "right_answer";
+                } else {
+                    document.getElementById("answer_span_12").className = "false_answer";
+                }
+                document.getElementById("answer_span_12").innerHTML = "Площадь суши России — 17 млн км2. Это больше, чем у Плутона (16,6 млн  км2)."
+                
+                document.getElementById("right_answers").innerHTML = "Вы ответили правильно на " + count + " вопрос(-а, - ов)"
+                document.getElementById("false_answers").innerHTML = "Вы ответили неправильно на " + (12 - count) + " вопрос(-а, - ов)"
+                document.getElementById("all_answers").innerHTML = "Всего 12 вопросов";
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <a href="/" id="back">назад</a>
+        </div>
+
+        <h1>Викторина</h1>
+        <form action="" method="POST" name="test" id="form">
+            <div class="quastion">
+                <h2><span>Вопрос №1</span><br>Какую пошлину ввели в XII  веке в Англии для того чтобы заставить мужчин пойти на войну?<br><p id="answer_span_1"></p></h2>
+                <input type="radio" name="an_1" id="an_1_1" value="a"><label for="an_1_1">Налог на тунеядство</label><br><br>
+                <input type="radio" name="an_1" id="an_1_2" value="b"><label for="an_1_2">Налог на трусость</label><br><br>
+                <input type="radio" name="an_1" id="an_1_3" value="c"><label for="an_1_3">Налог на отсутствие сапог</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №2</span><br>Туристы, приезжающие на Майорку, обязаны заплатить налог…<br><p id="answer_span_2"></p></h2>
+                <input type="radio" name="an_2" id="an_2_1"><label for="an_2_1">На плавки</label><br><br>
+                <input type="radio" name="an_2" id="an_2_2"><label for="an_2_2">На пальмы</label><br><br>
+                <input type="radio" name="an_2" id="an_2_3"><label for="an_2_3">На солнце</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №3</span><br>Найдите ошибку в отрывке из басни Крылова: «Попрыгунья Стрекоза лето красное пропела; оглянуться не успела, как зима катит в глаза».<br><p id="answer_span_3"></p></h2>
+                <input type="radio" name="an_3" id="an_3_1"><label for="an_3_1">Стрекозы не умеют прыгать</label><br><br>
+                <input type="radio" name="an_3" id="an_3_2"><label for="an_3_2">Эти насекомые совсем не издают звуков</label><br><br>
+                <input type="radio" name="an_3" id="an_3_3"><label for="an_3_3">Зимы в тех местах, о которых писал Крылов, нет</label><br><br>
+                <input type="radio" name="an_3" id="an_3_4"><label for="an_3_4">Здесь нет ошибки, все правильно</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №4</span><br>У индейцев из немногочисленного североамериканского племени квакиутл есть традиция: беря деньги в долг, они оставляют в залог…<br><p id="answer_span_4"></p></h2>
+                <input type="radio" name="an_4" id="an_4_1"><label for="an_4_1">Душу</label><br><br>
+                <input type="radio" name="an_4" id="an_4_2"><label for="an_4_2">Имя</label><br><br>
+                <input type="radio" name="an_4" id="an_4_3"><label for="an_4_3">Скальп тещи</label><br><br>
+                <input type="radio" name="an_4" id="an_4_4"><label for="an_4_4">Амулет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №5</span><br>Высота Останкинской башни — 540 метров. Сколько нужно размотать рулонов туалетной бумаги, чтобы получилось столько же метров?<br><p id="answer_span_5"></p></h2>
+                <input type="text" name="an_5" id="an_5_1"><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №6</span><br>Быки реагируют на красный цвет.<br><p id="answer_span_6"></p></h2>
+                <input type="radio" name="an_6" id="an_6_1"><label for="an_6_1">да</label><br><br>
+                <input type="radio" name="an_6" id="an_6_2"><label for="an_6_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №7</span><br>Страусы от опасности прячут голову в песок.<br><p id="answer_span_7"></p></h2>
+                <input type="radio" name="an_7" id="an_7_1"><label for="an_7_1">да</label><br><br>
+                <input type="radio" name="an_7" id="an_7_2"><label for="an_7_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №8</span><br>Молния не может ударить дважды в одно и то же место.<br><p id="answer_span_8"></p></h2>
+                <input type="radio" name="an_8" id="an_8_1"><label for="an_8_1">да</label><br><br>
+                <input type="radio" name="an_8" id="an_8_2"><label for="an_8_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №9</span><br>Верблюды накапливают в горбах воду.<br><p id="answer_span_9"></p></h2>
+                <input type="radio" name="an_9" id="an_9_1"><label for="an_9_1">да</label><br><br>
+                <input type="radio" name="an_9" id="an_9_2"><label for="an_9_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №10</span><br>Во Вселенной больше звезд, чем песчинок на пляжах Земли.<br><p id="answer_span_10"></p></h2>
+                <input type="radio" name="an_10" id="an_10_1"><label for="an_10_1">да</label><br><br>
+                <input type="radio" name="an_10" id="an_10_2"><label for="an_10_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №11</span><br>Великая Китайская стена — единственный рукотворный объект на Земле, видимый из космоса.<br><p id="answer_span_11"></p></h2>
+                <input type="radio" name="an_11" id="an_11_1"><label for="an_11_1">да</label><br><br>
+                <input type="radio" name="an_11" id="an_11_2"><label for="an_11_2">нет</label><br><br>
+            </div>
+
+            <div class="quastion">
+                <h2><span>Вопрос №12</span><br>Площадь суши России больше, чем у Плутона.<br><p id="answer_span_12"></p></h2>
+                <input type="radio" name="an_12" id="an_12_1"><label for="an_12_1">да</label><br><br>
+                <input type="radio" name="an_12" id="an_12_2"><label for="an_12_2">нет</label><br><br>
+            </div>
+
+            <div class="res">
+                <div class="results">
+                    <input type="button" id="check_btn" onclick="check()" value="Проверить"><br>
+                    <span class="results_text" id="right_answers"></span><br>
+                    <span class="results_text" id="false_answers"></span><br>
+                    <span class="results_text" id="all_answers"></span>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

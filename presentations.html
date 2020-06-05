@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style_presentations.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="presentations.js"></script>
+    <title>Презентации</title>
+</head>
+<body> <!--onload="createPresentations()"-->
+    <div>
+        <a href="/" id="back">назад</a>
+    </div>
+    <main id="main">
+        <div class="presentation" onclick="toPresentation(this)" id="1">
+            <img src="presentations/presentation_1/preview.png" alt="">
+            <p>АНГЛИЙСКИЙ</p>
+            <div id="link"><a href="presentations/presentation_1/АНГЛИЙСКИЙ ДЛЯ САВЫ.pdf">PDF версия</a></div>
+        </div>
+        <div class="presentation" onclick="toPresentation(this)" id="2">
+            <img src="presentations/presentation_2/preview.jpg" alt="">
+            <p>Золотая орда</p>
+            <div id="link"><a href="presentations/presentation_2/Золотая орда.pdf">PDF версия</a></div>
+        </div>
+        <div class="presentation" onclick="toPresentation(this)" id="3">
+            <img src="presentations/presentation_3/preview.jpg" alt="">
+            <p>My day</p>
+            <div id="link"><a href="presentations/presentation_3/My day.pdf">PDF версия</a></div>
+        </div>
+        <div class="presentation" onclick="toPresentation(this)" id="4">
+            <img src="presentations/presentation_4/preview.png" alt="">
+            <p>My day off</p>
+            <div id="link"><a href="presentations/presentation_4/My day off.pdf">PDF версия</a></div>
+        </div>
+    </main>
+</body>
+</html>
