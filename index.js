@@ -15,13 +15,13 @@ function custMenu() {
 
 function changeBG(bg) {
     var id = bg.id[0];
-    document.getElementById('body').style.background = `url(/img/background_${id}.jpg) no-repeat center top #114471`
+    document.getElementById('body').style.background = `url(img/background_${id}.jpg) no-repeat center top #114471`  // url(/img/background_${id}.jpg) no-repeat center top #114471 - если не github pages
     localStorage.setItem('bg', id)
 }
 
 function bgSet() {
     var id = localStorage.getItem('bg') || 5;
-    document.getElementById('body').style.background = `url(/img/background_${id}.jpg) no-repeat center top #114471`
+    document.getElementById('body').style.background = `url(img/background_${id}.jpg) no-repeat center top #114471`  // url(/img/background_${id}.jpg) no-repeat center top #114471 - если не github pages
 }
 
 function burger() {
