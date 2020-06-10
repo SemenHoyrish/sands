@@ -17,9 +17,6 @@ header {
     font-size: 40px;
 }
 
-.bloq {
-
-}
 .bloq_text {
     font-family: Pelagy;
     font-weight: bold;
@@ -85,7 +82,8 @@ header {
 
 aside {
     position: absolute;
-    max-width: 240px;
+    /* max-width: 240px; */
+    width: 95%;
     background-color: rgba(245, 245, 245, 0.4);
     margin-top: 10px;
     padding: 10px;
@@ -185,6 +183,7 @@ a:hover {
 }
 
 .GalyasBirthday {
+    display: none;
     text-align: center;
     /* display: none; */
 }
@@ -207,17 +206,27 @@ a:hover {
     display: none;
 }
 .videoIframe {
-    /* display: none; */
+    display: none;
 }
 .videoVideo {
     display: none;
 }
 
 .ChildrenDefenceDay {
-    display: flex;
+    display: none;
+    /* display: flex; */
     justify-content: center;
     margin-top: 50px;
     /* display: none; */
+}
+
+.anniversary {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+.anniversary-img {
+    max-width: 100%;
 }
 
 @media screen and (max-device-width: 1750px) {
