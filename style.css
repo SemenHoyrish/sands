@@ -222,11 +222,17 @@ a:hover {
 
 .anniversary {
     margin-top: 120px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.anniversary-img-div {
     display: flex;
     justify-content: center;
 }
 .anniversary-img {
-    max-width: 100%;
+    /* max-width: 100%; */
+    margin-bottom: 20px;
+    max-height: 1000px;
 }
 
 @media screen and (max-device-width: 1750px) {
