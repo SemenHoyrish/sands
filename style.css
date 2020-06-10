@@ -230,7 +230,7 @@ a:hover {
     justify-content: center;
 }
 .anniversary-img {
-    /* max-width: 100%; */
+    max-width: 100%;
     margin-bottom: 20px;
     max-height: 1000px;
 }
